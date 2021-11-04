@@ -2,9 +2,9 @@
 
 Ratio 'u_in'/'u_out' of different differintegrated version of the time series 
 
-##Model
+## Model
 Spatial attention layer and Bidirectional GRU recurrent network. 
 
-##Prediction
+## Prediction
 
 Median of each fold prediction. 
