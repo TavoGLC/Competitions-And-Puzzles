@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Oct 29 01:48:35 2022
+
+@author: tavo
+"""
+
+import numpy as np
+import pandas as pd
+
+###############################################################################
+# Auxiliary functions
+###############################################################################
+
+CITEKmers = pd.read_csv('/media/tavo/storage/0openproblems/data/seqs/CITETrainKmersA.csv')
+CITEKmers = CITEKmers.set_index('ids')
+
+foldsIndexCITE = pd.read_csv('/media/tavo/storage/0openproblems/data/seqs/CITETrainFolds.csv')
+
+BasePathCITE = '/media/tavo/storage/0openproblems/archive/CITE'
+
+trainInputsDirCITE = BasePathCITE + '/train-inputs'
+
+batchsize = 1000
+
+
+
+
+
+###############################################################################
+# Auxiliary functions
+###############################################################################
+
+
+
+foldsIndexMULTI = pd.read_csv('/media/tavo/storage/0openproblems/data/seqs/MULTITrainFolds.csv')
+
+BasePathMULTI = '/media/tavo/storage/0openproblems/archive/MULTI'
+
+trainInputsDirMULTI = BasePathMULTI + '/train-inputs'
